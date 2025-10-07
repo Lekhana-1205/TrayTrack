@@ -1,0 +1,17 @@
+# Streamlit for UI
+streamlit>=1.29.0
+
+# Supabase client
+supabase-py>=1.0.3
+
+# Pandas for data handling
+pandas>=2.2.2
+
+# NumPy for numerical computing
+numpy>=1.26.4
+
+# Requests for API calls
+requests>=2.31.0
+
+# Load environment variables
+python-dotenv>=1.0.1
