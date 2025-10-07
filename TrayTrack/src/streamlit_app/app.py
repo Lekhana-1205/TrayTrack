@@ -2,7 +2,7 @@ import sys
 import os
 import streamlit as st
 
-# Add the parent of services to sys.path so imports work
+# Add parent directory so imports work properly
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from services.manager_service import ManagerService
@@ -10,7 +10,7 @@ from services.menu_item_service import MenuItemService
 from services.ingredient_service import IngredientService
 from services.plate_waste_service import PlateWasteService
 
-
+# Streamlit Page Config
 st.set_page_config(page_title="TrayTrack 🍽️", layout="wide")
 st.title("TrayTrack - Smart Dining Waste Monitor 🍱")
 
